@@ -29,10 +29,11 @@ function App() {
   };
 
   return (
-    <div className="">
+    <div className="App">
       <h1>Dictionary App</h1>
       <div>
         <input
+          type="text"
           value={word}
           onChange={(e) => setWord(e.target.value)}
           placeholder="Search for a word..."
